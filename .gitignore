@@ -1,0 +1,7 @@
+bin/
+out/
+properties
+.properties
+
+/build/
+/dist/

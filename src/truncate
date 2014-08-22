@@ -1,0 +1,7 @@
+use cable_guardian;
+
+truncate tests;
+truncate alarms;
+truncate log;
+
+

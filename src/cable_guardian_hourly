@@ -1,0 +1,8 @@
+#!/bin/sh
+
+java -jar /home/ubuntu/CBUpdater.jar
+
+mysqlcheck -uroot -ppassw0rd --auto-repair --check  --all-databases
+
+ntpdate -b -s -u pool.ntp.org
+

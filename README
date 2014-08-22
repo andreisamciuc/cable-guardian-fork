@@ -1,0 +1,12 @@
+Cable Guardian Software
+
+Version 0.6.4
+
+Current Cable Multiplex Values:
+boards [1   -1000] real board
+boards [1010-1019] random between 710 to 950 meters
+boards [1020-1039] static random values
+boards [1040-  ..] static random values with database
+
+Calibration mode. If settings table contains setting calibrate with value of 
+line, then app should not run any tests, just calibration of the cable specified in settings.
